@@ -1,0 +1,995 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>LKP Securities Limited</title>
+    <meta name="description" content="Creative Agency, Marketing Agency Template">
+    <meta name="keywords" content="Creative Agency, Marketing Agency">
+    <meta name="author" content="rajesh-doot">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#2e2a8f">
+    <!--website-favicon-->
+    <link href="images/favicon.png" rel="icon">
+    <!--plugin-css-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <!-- template-style-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/plugin.min.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- template-style-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normal.css" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .container p {
+            width: 100%;
+            margin: 0;
+        }
+
+        .container img {
+            display: block;
+            margin-top: 20px;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <style>
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline {
+         
+    max-height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+        .timeline-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .timeline-time {
+            flex: 0 0 120px;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .timeline-content {
+            flex: 1;
+        }
+
+        /* Animation */
+        @keyframes highlight {
+            0% {
+                background-color: transparent;
+            }
+
+            50% {
+                background-color: rgba(255, 255, 0, 0.2);
+            }
+
+            100% {
+                background-color: transparent;
+            }
+        }
+
+        .highlighted {
+            animation-name: highlight;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+    </style>
+    <style>
+        .square-photo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.square-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+    </style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Poppins:wght@300&display=swap');
+</style>
+</head>
+
+<body>
+   <nav class="navbar" id="desktop">
+
+        <ul class="nav-links m-0">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Value Added Services</a></li>
+            <li><a href="#">Become a Partner</a></li>
+            <li><a href="#">IPO</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><button class="green-button mx-2">Create Account</button><button class="green-button">Signin</button>
+            </li>
+        </ul>
+
+    </nav>
+    <nav class="navbar" id="mobile">
+        <ul class="nav-links m-0 d-none">
+            
+            <li><h2 style="font-size:80; color:#FFF"><a href="#">Products</a></h1></li>
+            <li><h2 style="font-size:80; color:#FFF"><a href="#">Value Added Services</a></h1></li>
+            <li><h2 style="font-size:80; color:#FFF"><a href="#">Become a Partner</a></h1></li>
+            <li><h2 style="font-size:80; color:#FFF"><a href="#">IPO</a></h1></li>
+            <li><h2 style="font-size:80; color:#FFF"><a href="#">About Us</a></h1></li>
+        </ul>
+        <span class="px-4">
+            <button class="green-button">Create Account</button>
+            <button class="green-button">Signin</button>
+        </span>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>	
+
+    <div class="pad-tb">
+        <div class="">
+            <div class="row align-items-center ">
+                <div class="d-block col-lg-3 col-md-6 col-sm-12 mt-2 pt-2 px-5">
+                    <div data-aos="fade" data-aos-duration="1000" class="mx-4 pb-5">
+                        <div class="text-center">
+                            <div class="align-items-center py-2">
+                                <h1 class="text-center fw-bold mt-2 ml-2" style="color:rgb(1,210,142)">TRUST</h1>
+                            </div>
+                            <hr style="border: 1px solid rgb(1,210,142); width: 100%;">
+                            <div class="align-items-center py-2">
+                                <h1 class="text-center text-blue fw-bold mt-2 ml-2" style="color:#095192">INVEST</h1>
+                            </div>
+                            <hr style="border: 1px solid rgb(1,210,142); width: 100%;">
+                            <div class="align-items-center py-2">
+                                <h1 class="text-center text-blue fw-bold mt-2 ml-2" style="color:#095192">GROW</h1>
+                            </div>
+                            <hr style="border: 1px solid rgb(1,210,142); width:100%;">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+                    <img src="img/aboutus_header_image.jpg" style="width: auto; height: auto;">
+                </div>
+                <div data-aos="slide-up" data-aos-duration="1000" class="col-lg-5 col-sm-12 flex-column px-5" align="right">
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-end" style="width: 30%; position: 20;">
+                        <img src="img/aboutus_circle_image.jpg" style="width: auto; height: auto; margin-bottom:70px;">
+                    </div>
+
+                    <p style="text-align: justify; color:#095195;" class="mb-5 pb-5">At LKP Securities,we desire that
+                        trust,investment,and growth are the three pillars of successful wealth creation.As a leading
+                        financial services provider since 1948,we place a high value on transparency and honestly in all
+                        our dealings.Our team of experinced professionals work with integrity and adheres to the highest
+                        ethical standards to ensure that our clients can trust us with their</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--screen 2 page-->
+    <section class="about-freelance pad-tb">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+    <div class="common-heading text-l">
+      <h2 class="mb20">Vision & Mission</h2>
+      
+           
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="common-heading text-l">
+      <p style="color:#095195">At LKP Securities, we are dedicated to staying at the forefront of the financial industry by embracing
+                new technologies and investing in research and development. We continuously strive to improve our
+                services and offerings to ensure that we remain competitive in the ever-evolving financial landscape.
+                .</p>
+           
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="counter-facts">
+      <p style="color:#095195">If you want some assistance in placing the order over the phone, we can help you with our call and trade
+                option. With this facility, you can directly place an order by calling the dealer and the dealer will
+                place your order immediately.</p>
+      
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="counter-facts">
+   <img src="img/vision_image.jpg" alt="Image">
+      
+    </div>
+  </div>
+  
+</div>
+</div>
+</section>
+
+   
+    <!--end of screen 2 page-->
+    <!--start of screen 3 page-->
+    <section class="niwaxcompanytimeline pad-tb  parallax vw-100  d-none d-sm-block">      
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="timeline " style="overflow:hidden scroll">
+                       
+                        <div class="timeline-row niwaxcnnt2">
+                            
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >1968</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                               
+                            </div>
+                  
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                            
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >New Workspace</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                           
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e">New Horizons</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                           
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >We are 2500 and growing</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                           
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >5K Happy Clients</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                            
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >Academy Sward for Best Company</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt2">
+                            
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >A New Milestone Achieved</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-row niwaxcnnt1">
+                           
+                            <div class="timeline-content">
+                                <h4 style="color:#01d28e" >5K Happy Clients</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </marquee>
+                    </div>
+               
+                </div>
+            </div>
+    </section>
+    <section class="niwaxcompanytimeline pad-tb  parallax vw-100  d-block d-sm-none">      
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="timeline  " style="overflow:hidden scroll;display:none">
+                   
+                    <div class="timeline-row niwaxcnnt2">
+                        
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >1968</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                           
+                        </div>
+              
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                        
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >New Workspace</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                       
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >New Horizons</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                       
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >We are 2500 and growing</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                       
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >5K Happy Clients</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                           
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                        
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >Academy Sward for Best Company</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="thumbs">
+                                <img class="img-fluid rounded" src="images/icons/badge.svg" alt="Niwax">
+                                <img class="img-fluid rounded" src="images/icons/badge.svg" alt="Niwax">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt2">
+                        
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >A New Milestone Achieved</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row niwaxcnnt1">
+                       
+                        <div class="timeline-content">
+                            <h4 style="color:#01d28e" >5K Happy Clients</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </marquee>
+                </div>
+           
+            </div>
+        </div>
+</section>
+    <!--end of screen page 2-->
+    <!--about us-->
+    <section class="testinomial-section-nx bg-gradient8 pb100 pt100 pad-tb">
+        <div class="mx-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    
+                    <div class="owl-carousel testimonial-card-b mt60 owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-3456px, 0px, 0px); transition: all 0.5s ease 0s; width: 6912px;">
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 576px;">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book.</p>
+                                        <div class="-client-details- mt20">
+                                            
+                                            <div class="reviewer-text">
+                                                <h4>Buck Kinnear</h4>
+                                                <p>Business Owner, <small>Jaipur</small></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="clients-creative-pic pl25">
+                        <div class="mr10" id="testimonials-avatar">
+                            <button class="square-photo mb10"> <img alt="image"
+                                    src="img/kalpesh_shah.jpg"></button>
+                            <button class="square-photo"> <img alt="image"
+                                    src="img/prateek_doshi.jpg"></button>
+                            <button class="square-photo"> <img alt="image"
+                                    src="images/user-thumb/user3.jpg"></button>
+                            <button class="square-photo active"> <img alt="image"
+                                    src="images/user-thumb/user4.jpg"></button>
+                            <button class="square-photo"> <img alt="image"
+                                    src="images/user-thumb/user5.jpg"></button>
+                            <button class="square-photo"> <img alt="image"
+                                    src="images/user-thumb/user1.jpg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-agency pad-tb block-1" style="background-color:#095195;">
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-lg-6" style="text-align:center" >
+          <div class="common-heading">
+            
+            <h1 style="color: white" class="py-5">"Trade with Confidence, Grow with Us"</h1>
+            <p style="color:#FFF">Experience our commitment to trust, invest, and grow" - When you trade
+                            with us, you are not just a number; you are part of our family. We strive to create
+                            long-lasting relationships with our clients based on mutual trust and respect. Our goal is
+                            to help you grow your investments and achieve financial freedom.</p>
+            <a href="#" class="btn-main lh-base green-button my-4">Create Account Now</a>
+          </div>
+         
+        </div>
+         <div class="col-lg-6 v-center">
+          <div class="about-image">
+            <img src="img/Screen-6.jpg" alt="about us" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+
+    <!-- start footer -->
+    <div style="color: #3d5492">
+        <div style="margin-top:35px;" class="row px-5">
+            <h6 class="mb-1">About LKP</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur</p>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;"> Registered Office</h6>
+                <div class="contact-detail d-flex align-items-center">
+                    <img src="img/location_icon.jpg">
+                    <span> 203, Embassy Centre, Nariman Point, Mumbai - 400021.</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="mb-1" style="margin-top:25px;">Customer Desk No</h6>
+                <div class="contact-detail d-flex align-items-center">
+                    <img src="img/customer.jpg">
+                    <span>022-41507346</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h6 style="margin-top:25px;">Get Set Grow</h6>
+                <img src="img/google-play-logo.svg" class="my-3" alt="Google Play"><br>
+                <img src="img/app-store-logo.svg" class="my-3" alt="App Store">
+
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;">Telephone</img></h6>
+                <div class="contact-detail d-flex align-items-center">
+                    <img src="img/telephone.jpg">
+                    <span>91 22 4002 4785 / 4002 4786</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;">For Call & Trade / Support Desk Call </h6>
+                <div class="contact-detail d-flex align-items-center">
+                <img src="img/customer.jpg">
+                <span>1800-1020-198</span>
+                    </div>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;">Fax</h6>
+                <div class="contact-detail d-flex align-items-center">
+                    <img src="img/fax_icon.jpg">
+                    <span>+91 22 2287 4787</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="mb-1" style="margin-top:25px;">WhatsApp No</h6>
+                <div class="contact-detail d-flex align-items-center">
+                    <img src="img/whatsapp_icon.jpg">
+                    <span>7208914888</span>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h6 class="mb-1" style="margin-top:25px;">Follow Us On</h6>
+                <div class="d-flex contact-detail">
+                    <img src="img/facebook_icon.jpg" alt="Facebook" class="mx-1">
+                    <img src="img/insta_icon.jpg" alt="Instagram" class="mx-1">
+                    <img src="img/twitter_icon.jpg" alt="Twitter" class="mx-1">
+                    <img src="img/lindin_icon.jpg" alt="LinkedIn" class="mx-1">
+                    <img src="img/youtube_icon.jpg" alt="Youtube" class="mx-1">
+                </div>
+
+            </div>
+            <div style="margin-top:35px;">
+                <p>Single SEBI registration number for NSE/BSE/MSEI: INZ000216033 | CIN L67120MH1994PLC080039 and
+                    Maharashtra GSTIN No: 27AAACL0963A1ZZ
+                    Research Analyst registration number: INH00001758 | DP registration number: IN-DP-CDSL-206-2003 |
+                    PMS registration number: INP000005299</p>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;">Compliance Officer Details</h6>
+                <div class="d-flex align-items-center my-2">
+                    <div class="contact-detail d-flex align-items-center" style="width:50%">
+                        <img src="img/compliance_icon.jpg">
+                    <span>Mr. Alpesh Dangodra</span>
+                    </div>
+                    <div class="contact-detail d-flex align-items-center" style="width:50%">
+                        <img src="img/telephone.jpg">
+                        <span>022-66351223</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h6 class="mb-1" style="margin-top:25px;">In case of grievances for Securities Broking /DP</h6>
+                <div class="contact-detail d-flex align-items-center my-2" style="width:50%">
+                    <img src="img/email_icon.jpg">
+                    <span>grievances@lkpsec.com</span>
+                </div>
+            </div>
+            <div style="margin-top:35px;">
+                <h6 class="mb-1"  class="my-2">Other Links</h6>
+                <p>Privacy Policy | Disclaimer | Advisory for Investors | Investor Charter | Investor Information |
+                    Media & Press | Contact Us | Help & Support |
+                    Sitemap | SEBI Complaint Redressal System </p>
+            </div>
+            <div style="margin-top:35px;">
+                <h6 class="mb-1"  class="my-2">Attention Investors</h6>
+
+                <p>Prevent Unauthorised transactions in your account. Update your mobile numbers/email IDs with your
+                    stock
+                    brokers. Receive information of your
+                    Stock Brokers Can Accept Securities As Margin From Clients Only By Way Of Pledge In The Depository
+                    System
+                    W.E.F. September 1, 2020.
+                    Update Your Mobile Number & Email Id With Your Stock Broker/Depository Participant And Receive OTP
+                    Directly
+                    From Depository On Your Email Id
+                    And/Or Mobile Number To Create Pledge.
+                    Pay 20% Upfront Margin Of The Transaction Value To Trade In Cash Market Segment.
+                    Investors May Please Refer To The Exchange's Frequently Asked Questions (FAQs) Issued Vide Circular
+                    Reference NSE/INSP/45191 Dated July 31,
+                    2020 And NSE/INSP/45534 Dated August 31, 2020 And Other Guidelines Issued From Time To Time In This
+                    Regard.
+                    Check Your Securities /MF/ Bonds In The Consolidated Account Statement Issued By NSDL/CDSL Every
+                    Month.
+                    .......... Issued In The Interest Of
+                    Investors
+                </p>
+            </div>
+            <div style="margin-top:35px;">
+                <h6 class="mb-1"  class="my-2">Disclaimer</h6>
+
+                <p>Investments in securities market are subject to market risk, read all the related documents carefully
+                    before investing.
+                    We collect, retain, and use your contact information for legitimate business purposes only, to
+                    contact you and to provide you information & latest
+                    updates regarding our products & services.
+                    We do not sell or rent your contact information to third parties.
+                    Please note that by submitting the above-mentioned details, you are authorizing us to Call/SMS you
+                    even though you may be registered under
+                    DND. We shall Call/SMS you for a period of 12 months</p>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-4 my-3">
+                    <p>Arbitration Mechanism on the Stock Exchange</P>
+                </div>
+                <div class="col-lg-5 my-3">
+                    <p> © 2010 - 2023 LKP. All Rights Reserved, Build with <img src="img/heart_icon.jpg" alt="Heart"> in India</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- end footer -->
+
+
+
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/plugin.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/dark-mode.js"></script>
+  <!--common script file-->
+  <script src="js/main.js"></script>
+
+  <script src="js/normal.js"></script>
+  <script>
+    //Owl-Carousel - client logo
+    var owl = $('.niwaxwideserviceslider');
+    owl.owlCarousel({
+      items: 1,
+      loop: true,
+      center: false,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 2000
+    });
+    //Owl-Carousel - client logo
+    var owl = $('.niwax-client-slider');
+    owl.owlCarousel({
+      loop: true,
+      center: false,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: false,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 2000,
+      responsive: {
+        0: {
+          items: 3,
+        },
+        520: {
+          items: 3
+        },
+        768: {
+          items: 4
+        },
+        1200: {
+          items: 4
+        },
+        1400: {
+          items: 5
+        },
+        1600: {
+          items: 6
+        },
+      }
+    });
+    //Owl-Carousel - awards card
+    var owl = $('.niwax-logo-slider');
+    owl.owlCarousel({
+      loop: true,
+      center: false,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: false,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 2000,
+      responsive: {
+        0: {
+          items: 3,
+        },
+        520: {
+          items: 3
+        },
+        768: {
+          items: 4
+        },
+        1200: {
+          items: 4
+        },
+        1400: {
+          items: 5
+        },
+        1600: {
+          items: 6
+        },
+      }
+    });
+
+    //Owl-Carousel - awards card
+    var owl = $('.niwax-review-slider');
+    owl.owlCarousel({
+      items: 3,
+      loop: true,
+      center: false,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 2000,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        520: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1200: {
+          items: 2
+        },
+        1400: {
+          items: 3
+        },
+        1600: {
+          items: 3
+        },
+      }
+    });
+  </script>
+  <script>
+    //Owl-Carousel - Home hero card
+    var owl = $('.post-newsltr');
+    owl.owlCarousel({
+      stagePadding: 50,
+      items: 3,
+      loop: true,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: false,
+      autoplayTimeout: 3500,
+      autoplayHoverPause: true,
+      smartSpeed: 2000,
+      responsive: {
+        0: {
+          items: 1,
+          stagePadding: 30,
+        },
+        520: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1200: {
+          items: 2
+        },
+        1400: {
+          items: 3
+        },
+        1600: {
+          items: 3
+        },
+      }
+    });
+  </script>
+</body>
+
+</html>

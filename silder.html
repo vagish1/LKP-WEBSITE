@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+<head>
+    <style>
+        
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .service-section {
+            height:100%;
+            background-color:rgb(9, 81, 146);
+            /* Set the height of the section to accommodate the cards */
+           
+        }
+
+        .marquee {
+            animation: marquee-animation 30s linear infinite;
+            /* Set the animation properties */
+        }
+
+        .marquee:hover {
+            animation-play-state: paused;
+            /* Pause the animation on hover */
+        }
+
+        @keyframes marquee-animation {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(calc(-100% + 400px));
+                /* Adjust the translateY value to match the section height */
+            }
+        }
+
+        /* Rest of the CSS styles for the cards */
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:right;
+        }
+
+        .col-lg-12,
+        .col-sm-12 {
+            flex-basis: 100%;
+            max-width: 30%;
+        }
+
+        .mt30 {
+            margin-top:30px;
+        }
+
+        .wide-block {
+            position: relative;
+            overflow: hidden;
+            height: 280px;
+            background-color:rgb(1, 210, 142);
+            border-radius: 10px;
+        }
+
+        .block-space- {
+            padding: 10px;
+        }
+
+        span {
+            display: block;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        a {text-decoration:none;
+            margin-bottom: 3em;
+            margin-left: 8em;
+            display: inline-block;
+           color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+       
+
+        .fa-icon {
+            margin-left: 10px;
+        }
+        .mt20 {
+            margin-top:20px;
+        }
+        .mb {
+            margin-bottom:20px;
+        }
+        .text {
+   
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: #fff;
+      font-size: 50px;
+    }
+   img{
+    margin-top:20px;
+    margin-left:12px;
+    width:40px;
+   }
+h3{
+    color:#fff;
+}
+.py { padding-top:90px;
+padding-left:20px;
+}
+.pl {
+    padding-left:30px;
+}
+
+    </style>
+</head>
+
+<body>
+    <section class="service-section">
+        
+        <h1 class="text py">Our Financial Products
+            <br> are Built to help you<br> Invest and Grow Successfully</h1>
+            <h3 class="fa-icon pl">Experience personalized service from our trusted team of veteran investment professionals.
+                <br> Choose from a variety of investment strategies and solutions, including long-term investments
+                <br> and short-term trading opportunities.</h3>
+        <div class="container">
+           
+            <div class="row upset link-hover">
+                <div class="col-lg-12 col-sm-12 mt30">
+                    <div class="marquee">
+                        <div class="wide-block service-img1" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/stock.png"></img>
+                                <h1 class="mt20 fa-icon">Stocks</h1>
+                                <h4 class="fa-icon">Make informed investment decisions. Invest with a trusted financial advisor</h4>
+
+                                <a href="#">Know More <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img2 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/derivatives.png"></img>
+                                <h1 class="mt20 fa-icon">Derivatives</h1>
+                                <h4 class="fa-icon">With our advanced tools, hedging against potential losses is easy with derivatives</h4>
+                                <a href="#">Know More <i class="fa-solid fa-arrow-right" style="color: #095192;"></i> </a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img3 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/commodity.png"></img>
+                                <h1 class="mt20 fa-icon">Commodity</h1>
+                                <h4 class="fa-icon">Take advantage of commodities to increase your market exposure and potential returns</h4>
+                                <a href="#">Know More  <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img4 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/currency.png"></img>
+                                <h1 class="mt20 fa-icon">Currency
+                                    </h1>
+                                <h4 class="fa-icon">Buy and sell different currencies. Take advantage of exchange rate fluctuations</h4>
+                                <a href="#">Know More  <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img5 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/ipo.png"></img>
+                                <h1 class="mt20 fa-icon">IPOs
+                                  </h1>
+                                <h4 class="fa-icon">  Get access to new investment opportunities in innovative and growing companies</h4>
+                                <a href="#">Know More <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img6 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/mutualfunds.png"></img>
+                                <h1 class="mt20 fa-icon">Mutual Funds & ETF
+                                   </h1>
+                                <h4 class="fa-icon"> Invest in a mutual fund for diversified exposure to a range of assets</h4>
+                                <a href="#">Know More <i class="fa-solid fa-arrow-right" style="color: #095192;"></i> </a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img6 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/advisory.png"></img>
+                                <h1 class="mt20 fa-icon">Advisory
+                                   </h1>
+                                <h4 class="fa-icon"> Get advice that is personalized, just for you</h4>
+                                <a href="#">Know More  <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        <div class="wide-block service-img6 mt30" data-tilt data-tilt-max="2" data-tilt-speed="600">
+                            <div class="block-space-">
+                                <img src="img/research.png"></img>
+                                <h1 class="mt20 fa-icon">Research
+                                    </h1>
+                                <h4 class="fa-icon">Make the most of our market specialists’ expertise</h4>
+                                <a href="#">Know More  <i class="fa-solid fa-arrow-right" style="color: #095192;"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript to add the marquee effect
+        const marquee = document.querySelector('.marquee');
+        const cards = marquee.children;
+        const cardHeight = cards[0].offsetHeight + parseInt(window.getComputedStyle(cards[0]));
+        let delay = 10; // Delay between cards in seconds
+
+        marquee.style.animationDuration = `${delay * Math.ceil(cards.length / 4)}s`; // Adjust the duration based on the number of cards
+
+        // Set the initial offset for each card
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].style.transform = `translateY(${i * cardHeight}px)`;
+        }
+    </script>
+
+</body>
+
+</html>
